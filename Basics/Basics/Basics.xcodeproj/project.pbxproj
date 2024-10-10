@@ -11,6 +11,7 @@
 		EB162D232CA1AB3800106A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB162D222CA1AB3800106A2E /* ContentView.swift */; };
 		EB162D252CA1AB3A00106A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB162D242CA1AB3A00106A2E /* Assets.xcassets */; };
 		EB162D282CA1AB3A00106A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB162D272CA1AB3A00106A2E /* Preview Assets.xcassets */; };
+		EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80059D2CB8653C0026E015 /* DropDownList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EB162D222CA1AB3800106A2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB162D242CA1AB3A00106A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB162D272CA1AB3A00106A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB80059D2CB8653C0026E015 /* DropDownList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EB162D202CA1AB3800106A2E /* BasicsApp.swift */,
 				EB162D222CA1AB3800106A2E /* ContentView.swift */,
+				EB80059C2CB8650A0026E015 /* Custom elements */,
 				EB162D242CA1AB3A00106A2E /* Assets.xcassets */,
 				EB162D262CA1AB3A00106A2E /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				EB162D272CA1AB3A00106A2E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB80059C2CB8650A0026E015 /* Custom elements */ = {
+			isa = PBXGroup;
+			children = (
+				EB80059D2CB8653C0026E015 /* DropDownList.swift */,
+			);
+			path = "Custom elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				EB162D232CA1AB3800106A2E /* ContentView.swift in Sources */,
 				EB162D212CA1AB3800106A2E /* BasicsApp.swift in Sources */,
+				EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
