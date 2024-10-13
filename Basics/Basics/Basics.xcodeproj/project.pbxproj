@@ -12,6 +12,13 @@
 		EB162D252CA1AB3A00106A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB162D242CA1AB3A00106A2E /* Assets.xcassets */; };
 		EB162D282CA1AB3A00106A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB162D272CA1AB3A00106A2E /* Preview Assets.xcassets */; };
 		EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80059D2CB8653C0026E015 /* DropDownList.swift */; };
+		EB9BFB862CBC29E40015CF57 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB852CBC29E40015CF57 /* ParallaxEffect.swift */; };
+		EB9BFB8B2CBC2BA40015CF57 /* CameraView in Frameworks */ = {isa = PBXBuildFile; productRef = EB9BFB8A2CBC2BA40015CF57 /* CameraView */; };
+		EB9BFB8E2CBC2CC50015CF57 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB8D2CBC2CC50015CF57 /* Card.swift */; };
+		EB9BFB902CBC2CF10015CF57 /* BoomerangView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB8F2CBC2CF10015CF57 /* BoomerangView.swift */; };
+		EB9BFB952CBC2DEE0015CF57 /* 3DFidgetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB942CBC2DEE0015CF57 /* 3DFidgetCard.swift */; };
+		EB9BFB972CBC31400015CF57 /* GithubKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB962CBC31400015CF57 /* GithubKeys.swift */; };
+		EB9BFB9A2CBC31610015CF57 /* Snippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB992CBC31610015CF57 /* Snippets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,12 @@
 		EB162D242CA1AB3A00106A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB162D272CA1AB3A00106A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB80059D2CB8653C0026E015 /* DropDownList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownList.swift; sourceTree = "<group>"; };
+		EB9BFB852CBC29E40015CF57 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
+		EB9BFB8D2CBC2CC50015CF57 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EB9BFB8F2CBC2CF10015CF57 /* BoomerangView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomerangView.swift; sourceTree = "<group>"; };
+		EB9BFB942CBC2DEE0015CF57 /* 3DFidgetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DFidgetCard.swift; sourceTree = "<group>"; };
+		EB9BFB962CBC31400015CF57 /* GithubKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubKeys.swift; sourceTree = "<group>"; };
+		EB9BFB992CBC31610015CF57 /* Snippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9BFB8B2CBC2BA40015CF57 /* CameraView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +69,7 @@
 			children = (
 				EB162D202CA1AB3800106A2E /* BasicsApp.swift */,
 				EB162D222CA1AB3800106A2E /* ContentView.swift */,
+				EB9BFB982CBC31440015CF57 /* Github */,
 				EB80059C2CB8650A0026E015 /* Custom elements */,
 				EB162D242CA1AB3A00106A2E /* Assets.xcassets */,
 				EB162D262CA1AB3A00106A2E /* Preview Content */,
@@ -73,9 +88,54 @@
 		EB80059C2CB8650A0026E015 /* Custom elements */ = {
 			isa = PBXGroup;
 			children = (
-				EB80059D2CB8653C0026E015 /* DropDownList.swift */,
+				EB9BFB922CBC2D750015CF57 /* DropDownList */,
+				EB9BFB912CBC2D660015CF57 /* ParallaxEffect */,
+				EB9BFB8C2CBC2CB50015CF57 /* BoomerangCard */,
+				EB9BFB932CBC2DB10015CF57 /* 3D Effect FidgetCard */,
 			);
 			path = "Custom elements";
+			sourceTree = "<group>";
+		};
+		EB9BFB8C2CBC2CB50015CF57 /* BoomerangCard */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BFB8D2CBC2CC50015CF57 /* Card.swift */,
+				EB9BFB8F2CBC2CF10015CF57 /* BoomerangView.swift */,
+			);
+			path = BoomerangCard;
+			sourceTree = "<group>";
+		};
+		EB9BFB912CBC2D660015CF57 /* ParallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BFB852CBC29E40015CF57 /* ParallaxEffect.swift */,
+			);
+			path = ParallaxEffect;
+			sourceTree = "<group>";
+		};
+		EB9BFB922CBC2D750015CF57 /* DropDownList */ = {
+			isa = PBXGroup;
+			children = (
+				EB80059D2CB8653C0026E015 /* DropDownList.swift */,
+			);
+			path = DropDownList;
+			sourceTree = "<group>";
+		};
+		EB9BFB932CBC2DB10015CF57 /* 3D Effect FidgetCard */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BFB942CBC2DEE0015CF57 /* 3DFidgetCard.swift */,
+			);
+			path = "3D Effect FidgetCard";
+			sourceTree = "<group>";
+		};
+		EB9BFB982CBC31440015CF57 /* Github */ = {
+			isa = PBXGroup;
+			children = (
+				EB9BFB962CBC31400015CF57 /* GithubKeys.swift */,
+				EB9BFB992CBC31610015CF57 /* Snippets.swift */,
+			);
+			path = Github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +154,9 @@
 			dependencies = (
 			);
 			name = Basics;
+			packageProductDependencies = (
+				EB9BFB8A2CBC2BA40015CF57 /* CameraView */,
+			);
 			productName = Basics;
 			productReference = EB162D1D2CA1AB3800106A2E /* Basics.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +185,9 @@
 				Base,
 			);
 			mainGroup = EB162D142CA1AB3800106A2E;
+			packageReferences = (
+				EB9BFB892CBC2BA40015CF57 /* XCRemoteSwiftPackageReference "CameraView" */,
+			);
 			productRefGroup = EB162D1E2CA1AB3800106A2E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,7 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9BFB9A2CBC31610015CF57 /* Snippets.swift in Sources */,
 				EB162D232CA1AB3800106A2E /* ContentView.swift in Sources */,
+				EB9BFB952CBC2DEE0015CF57 /* 3DFidgetCard.swift in Sources */,
+				EB9BFB972CBC31400015CF57 /* GithubKeys.swift in Sources */,
+				EB9BFB862CBC29E40015CF57 /* ParallaxEffect.swift in Sources */,
+				EB9BFB8E2CBC2CC50015CF57 /* Card.swift in Sources */,
+				EB9BFB902CBC2CF10015CF57 /* BoomerangView.swift in Sources */,
 				EB162D212CA1AB3800106A2E /* BasicsApp.swift in Sources */,
 				EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */,
 			);
@@ -209,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -266,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,6 +359,8 @@
 				DEVELOPMENT_TEAM = 3XK355J24V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Show Camera";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Air motion Data Requires Authorization";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +390,8 @@
 				DEVELOPMENT_TEAM = 3XK355J24V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Show Camera";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Air motion Data Requires Authorization";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,6 +432,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB9BFB892CBC2BA40015CF57 /* XCRemoteSwiftPackageReference "CameraView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/brettfazio/CameraView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB9BFB8A2CBC2BA40015CF57 /* CameraView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB9BFB892CBC2BA40015CF57 /* XCRemoteSwiftPackageReference "CameraView" */;
+			productName = CameraView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB162D152CA1AB3800106A2E /* Project object */;
 }
