@@ -11,6 +11,10 @@
 		EB162D232CA1AB3800106A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB162D222CA1AB3800106A2E /* ContentView.swift */; };
 		EB162D252CA1AB3A00106A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB162D242CA1AB3A00106A2E /* Assets.xcassets */; };
 		EB162D282CA1AB3A00106A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB162D272CA1AB3A00106A2E /* Preview Assets.xcassets */; };
+		EB242A042CBD589A00C0E627 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB242A032CBD589A00C0E627 /* PropertyWrappers.swift */; };
+		EB242A062CBD6FF800C0E627 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB242A052CBD6FF800C0E627 /* Combine.swift */; };
+		EB242A082CBD763C00C0E627 /* ViewModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB242A072CBD763C00C0E627 /* ViewModifierExample.swift */; };
+		EB242A0B2CBD7B0000C0E627 /* TextFieldAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB242A0A2CBD7B0000C0E627 /* TextFieldAnimation.swift */; };
 		EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80059D2CB8653C0026E015 /* DropDownList.swift */; };
 		EB9BFB862CBC29E40015CF57 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB852CBC29E40015CF57 /* ParallaxEffect.swift */; };
 		EB9BFB8B2CBC2BA40015CF57 /* CameraView in Frameworks */ = {isa = PBXBuildFile; productRef = EB9BFB8A2CBC2BA40015CF57 /* CameraView */; };
@@ -27,6 +31,10 @@
 		EB162D222CA1AB3800106A2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB162D242CA1AB3A00106A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB162D272CA1AB3A00106A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB242A032CBD589A00C0E627 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
+		EB242A052CBD6FF800C0E627 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		EB242A072CBD763C00C0E627 /* ViewModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExample.swift; sourceTree = "<group>"; };
+		EB242A0A2CBD7B0000C0E627 /* TextFieldAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAnimation.swift; sourceTree = "<group>"; };
 		EB80059D2CB8653C0026E015 /* DropDownList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownList.swift; sourceTree = "<group>"; };
 		EB9BFB852CBC29E40015CF57 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
 		EB9BFB8D2CBC2CC50015CF57 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -69,6 +77,8 @@
 			children = (
 				EB162D202CA1AB3800106A2E /* BasicsApp.swift */,
 				EB162D222CA1AB3800106A2E /* ContentView.swift */,
+				EB242A012CBD585400C0E627 /* Swift */,
+				EB242A022CBD586400C0E627 /* Basis SwiftUI */,
 				EB9BFB982CBC31440015CF57 /* Github */,
 				EB80059C2CB8650A0026E015 /* Custom elements */,
 				EB162D242CA1AB3A00106A2E /* Assets.xcassets */,
@@ -85,9 +95,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EB242A012CBD585400C0E627 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		EB242A022CBD586400C0E627 /* Basis SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				EB242A032CBD589A00C0E627 /* PropertyWrappers.swift */,
+				EB242A052CBD6FF800C0E627 /* Combine.swift */,
+				EB242A072CBD763C00C0E627 /* ViewModifierExample.swift */,
+				EB9BFB992CBC31610015CF57 /* Snippets.swift */,
+			);
+			path = "Basis SwiftUI";
+			sourceTree = "<group>";
+		};
+		EB242A092CBD7AE800C0E627 /* TextFieldAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EB242A0A2CBD7B0000C0E627 /* TextFieldAnimation.swift */,
+			);
+			path = TextFieldAnimation;
+			sourceTree = "<group>";
+		};
 		EB80059C2CB8650A0026E015 /* Custom elements */ = {
 			isa = PBXGroup;
 			children = (
+				EB242A092CBD7AE800C0E627 /* TextFieldAnimation */,
 				EB9BFB922CBC2D750015CF57 /* DropDownList */,
 				EB9BFB912CBC2D660015CF57 /* ParallaxEffect */,
 				EB9BFB8C2CBC2CB50015CF57 /* BoomerangCard */,
@@ -99,8 +136,8 @@
 		EB9BFB8C2CBC2CB50015CF57 /* BoomerangCard */ = {
 			isa = PBXGroup;
 			children = (
-				EB9BFB8D2CBC2CC50015CF57 /* Card.swift */,
 				EB9BFB8F2CBC2CF10015CF57 /* BoomerangView.swift */,
+				EB9BFB8D2CBC2CC50015CF57 /* Card.swift */,
 			);
 			path = BoomerangCard;
 			sourceTree = "<group>";
@@ -133,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				EB9BFB962CBC31400015CF57 /* GithubKeys.swift */,
-				EB9BFB992CBC31610015CF57 /* Snippets.swift */,
 			);
 			path = Github;
 			sourceTree = "<group>";
@@ -215,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB9BFB9A2CBC31610015CF57 /* Snippets.swift in Sources */,
+				EB242A062CBD6FF800C0E627 /* Combine.swift in Sources */,
+				EB242A082CBD763C00C0E627 /* ViewModifierExample.swift in Sources */,
 				EB162D232CA1AB3800106A2E /* ContentView.swift in Sources */,
 				EB9BFB952CBC2DEE0015CF57 /* 3DFidgetCard.swift in Sources */,
 				EB9BFB972CBC31400015CF57 /* GithubKeys.swift in Sources */,
@@ -222,6 +260,8 @@
 				EB9BFB8E2CBC2CC50015CF57 /* Card.swift in Sources */,
 				EB9BFB902CBC2CF10015CF57 /* BoomerangView.swift in Sources */,
 				EB162D212CA1AB3800106A2E /* BasicsApp.swift in Sources */,
+				EB242A0B2CBD7B0000C0E627 /* TextFieldAnimation.swift in Sources */,
+				EB242A042CBD589A00C0E627 /* PropertyWrappers.swift in Sources */,
 				EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
