@@ -28,6 +28,11 @@
 		EB9BFB952CBC2DEE0015CF57 /* 3DFidgetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB942CBC2DEE0015CF57 /* 3DFidgetCard.swift */; };
 		EB9BFB972CBC31400015CF57 /* GithubKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB962CBC31400015CF57 /* GithubKeys.swift */; };
 		EB9BFB9A2CBC31610015CF57 /* Snippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB992CBC31610015CF57 /* Snippets.swift */; };
+		EBE2C41D2CCBABD20058AD2A /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2C41C2CCBABD20058AD2A /* Onboarding.swift */; };
+		EBE2C4202CCBABF40058AD2A /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2C41F2CCBABF40058AD2A /* ImageCarouselView.swift */; };
+		EBE2C4222CCBAC110058AD2A /* PageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2C4212CCBAC110058AD2A /* PageIndicatorView.swift */; };
+		EBE2C4242CCBAC2A0058AD2A /* TextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2C4232CCBAC2A0058AD2A /* TextContentView.swift */; };
+		EBE2C4262CCBAC3D0058AD2A /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2C4252CCBAC3D0058AD2A /* ActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		EB9BFB942CBC2DEE0015CF57 /* 3DFidgetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DFidgetCard.swift; sourceTree = "<group>"; };
 		EB9BFB962CBC31400015CF57 /* GithubKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubKeys.swift; sourceTree = "<group>"; };
 		EB9BFB992CBC31610015CF57 /* Snippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippets.swift; sourceTree = "<group>"; };
+		EBE2C41C2CCBABD20058AD2A /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		EBE2C41F2CCBABF40058AD2A /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
+		EBE2C4212CCBAC110058AD2A /* PageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicatorView.swift; sourceTree = "<group>"; };
+		EBE2C4232CCBAC2A0058AD2A /* TextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContentView.swift; sourceTree = "<group>"; };
+		EBE2C4252CCBAC3D0058AD2A /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,7 @@
 		EB80059C2CB8650A0026E015 /* Custom elements */ = {
 			isa = PBXGroup;
 			children = (
+				EBE2C41B2CCBAB090058AD2A /* PageViewDynamics */,
 				EB242A092CBD7AE800C0E627 /* TextFieldAnimation */,
 				EB9BFB922CBC2D750015CF57 /* DropDownList */,
 				EB9BFB912CBC2D660015CF57 /* ParallaxEffect */,
@@ -203,6 +214,26 @@
 				EB9BFB962CBC31400015CF57 /* GithubKeys.swift */,
 			);
 			path = Github;
+			sourceTree = "<group>";
+		};
+		EBE2C41B2CCBAB090058AD2A /* PageViewDynamics */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2C41C2CCBABD20058AD2A /* Onboarding.swift */,
+				EBE2C41E2CCBABDF0058AD2A /* Subviews */,
+			);
+			path = PageViewDynamics;
+			sourceTree = "<group>";
+		};
+		EBE2C41E2CCBABDF0058AD2A /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2C41F2CCBABF40058AD2A /* ImageCarouselView.swift */,
+				EBE2C4212CCBAC110058AD2A /* PageIndicatorView.swift */,
+				EBE2C4232CCBAC2A0058AD2A /* TextContentView.swift */,
+				EBE2C4252CCBAC3D0058AD2A /* ActionButtonView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,12 +313,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB9BFB9A2CBC31610015CF57 /* Snippets.swift in Sources */,
+				EBE2C4262CCBAC3D0058AD2A /* ActionButtonView.swift in Sources */,
+				EBE2C4222CCBAC110058AD2A /* PageIndicatorView.swift in Sources */,
 				EB3C380D2CC11E7F001E0759 /* SwiftData.swift in Sources */,
 				EB242A062CBD6FF800C0E627 /* Combine.swift in Sources */,
 				EB242A082CBD763C00C0E627 /* ViewModifierExample.swift in Sources */,
 				EB3C38112CC11E96001E0759 /* FireBase.swift in Sources */,
 				EB162D232CA1AB3800106A2E /* ContentView.swift in Sources */,
+				EBE2C41D2CCBABD20058AD2A /* Onboarding.swift in Sources */,
 				EB3C380B2CC11E75001E0759 /* CoreData.swift in Sources */,
+				EBE2C4242CCBAC2A0058AD2A /* TextContentView.swift in Sources */,
 				EB9BFB952CBC2DEE0015CF57 /* 3DFidgetCard.swift in Sources */,
 				EB9BFB972CBC31400015CF57 /* GithubKeys.swift in Sources */,
 				EB3C380F2CC11E89001E0759 /* Realm.swift in Sources */,
@@ -298,6 +333,7 @@
 				EB242A0B2CBD7B0000C0E627 /* TextFieldAnimation.swift in Sources */,
 				EB242A042CBD589A00C0E627 /* PropertyWrappers.swift in Sources */,
 				EB3C38092CC11E68001E0759 /* UserDefaults.swift in Sources */,
+				EBE2C4202CCBABF40058AD2A /* ImageCarouselView.swift in Sources */,
 				EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -414,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
