@@ -19,7 +19,7 @@
 		EB3C380B2CC11E75001E0759 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C380A2CC11E75001E0759 /* CoreData.swift */; };
 		EB3C380D2CC11E7F001E0759 /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C380C2CC11E7F001E0759 /* SwiftData.swift */; };
 		EB3C380F2CC11E89001E0759 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C380E2CC11E89001E0759 /* Realm.swift */; };
-		EB3C38112CC11E96001E0759 /* FireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C38102CC11E96001E0759 /* FireBase.swift */; };
+		EB3C38112CC11E96001E0759 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C38102CC11E96001E0759 /* Firebase.swift */; };
 		EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80059D2CB8653C0026E015 /* DropDownList.swift */; };
 		EB9BFB862CBC29E40015CF57 /* ParallaxEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9BFB852CBC29E40015CF57 /* ParallaxEffect.swift */; };
 		EB9BFB8B2CBC2BA40015CF57 /* CameraView in Frameworks */ = {isa = PBXBuildFile; productRef = EB9BFB8A2CBC2BA40015CF57 /* CameraView */; };
@@ -49,7 +49,7 @@
 		EB3C380A2CC11E75001E0759 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 		EB3C380C2CC11E7F001E0759 /* SwiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftData.swift; sourceTree = "<group>"; };
 		EB3C380E2CC11E89001E0759 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
-		EB3C38102CC11E96001E0759 /* FireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase.swift; sourceTree = "<group>"; };
+		EB3C38102CC11E96001E0759 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
 		EB80059D2CB8653C0026E015 /* DropDownList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownList.swift; sourceTree = "<group>"; };
 		EB9BFB852CBC29E40015CF57 /* ParallaxEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxEffect.swift; sourceTree = "<group>"; };
 		EB9BFB8D2CBC2CC50015CF57 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 				EB3C380A2CC11E75001E0759 /* CoreData.swift */,
 				EB3C380C2CC11E7F001E0759 /* SwiftData.swift */,
 				EB3C380E2CC11E89001E0759 /* Realm.swift */,
-				EB3C38102CC11E96001E0759 /* FireBase.swift */,
+				EB3C38102CC11E96001E0759 /* Firebase.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 				EB3C380D2CC11E7F001E0759 /* SwiftData.swift in Sources */,
 				EB242A062CBD6FF800C0E627 /* Combine.swift in Sources */,
 				EB242A082CBD763C00C0E627 /* ViewModifierExample.swift in Sources */,
-				EB3C38112CC11E96001E0759 /* FireBase.swift in Sources */,
+				EB3C38112CC11E96001E0759 /* Firebase.swift in Sources */,
 				EB162D232CA1AB3800106A2E /* ContentView.swift in Sources */,
 				EBE2C41D2CCBABD20058AD2A /* Onboarding.swift in Sources */,
 				EB3C380B2CC11E75001E0759 /* CoreData.swift in Sources */,
