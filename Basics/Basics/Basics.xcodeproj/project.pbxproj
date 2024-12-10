@@ -158,9 +158,9 @@
 		EB3C38072CC11E4F001E0759 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EBE8A1662D087A5F0030B6F0 /* SwiftData */,
 				EB3C38082CC11E68001E0759 /* UserDefaults.swift */,
 				EB3C380A2CC11E75001E0759 /* CoreData.swift */,
-				EB3C380C2CC11E7F001E0759 /* SwiftData.swift */,
 				EB3C380E2CC11E89001E0759 /* Realm.swift */,
 				EB3C38102CC11E96001E0759 /* Firebase.swift */,
 			);
@@ -292,6 +292,14 @@
 				EBE8A15A2D086FB40030B6F0 /* Double.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EBE8A1662D087A5F0030B6F0 /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				EB3C380C2CC11E7F001E0759 /* SwiftData.swift */,
+			);
+			path = SwiftData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
