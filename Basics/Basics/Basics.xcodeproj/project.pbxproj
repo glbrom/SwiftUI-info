@@ -39,6 +39,7 @@
 		EBE8A1612D0870230030B6F0 /* CoinContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8A1602D0870230030B6F0 /* CoinContentView.swift */; };
 		EBE8A1632D08705F0030B6F0 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8A1622D08705F0030B6F0 /* CoinRowView.swift */; };
 		EBE8A1652D0870930030B6F0 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8A1642D0870930030B6F0 /* CoinViewModel.swift */; };
+		EBE8A1692D08F2C80030B6F0 /* ExampleCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8A1682D08F2C80030B6F0 /* ExampleCombine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		EBE8A1602D0870230030B6F0 /* CoinContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinContentView.swift; sourceTree = "<group>"; };
 		EBE8A1622D08705F0030B6F0 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		EBE8A1642D0870930030B6F0 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		EBE8A1682D08F2C80030B6F0 /* ExampleCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCombine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				EB162D202CA1AB3800106A2E /* BasicsApp.swift */,
 				EB162D222CA1AB3800106A2E /* ContentView.swift */,
 				EB242A012CBD585400C0E627 /* Swift */,
+				EBE8A1672D08F2660030B6F0 /* Combine */,
 				EB242A022CBD586400C0E627 /* Basis SwiftUI */,
 				EB3C38072CC11E4F001E0759 /* Data */,
 				EB3C38122CC11EA0001E0759 /* Network */,
@@ -140,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				EB242A032CBD589A00C0E627 /* PropertyWrappers.swift */,
-				EB242A052CBD6FF800C0E627 /* Combine.swift */,
 				EB242A072CBD763C00C0E627 /* ViewModifierExample.swift */,
 				EB9BFB992CBC31610015CF57 /* Snippets.swift */,
 			);
@@ -302,6 +304,15 @@
 			path = SwiftData;
 			sourceTree = "<group>";
 		};
+		EBE8A1672D08F2660030B6F0 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				EB242A052CBD6FF800C0E627 /* Combine.swift */,
+				EBE8A1682D08F2C80030B6F0 /* ExampleCombine.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -406,6 +417,7 @@
 				EB242A042CBD589A00C0E627 /* PropertyWrappers.swift in Sources */,
 				EB3C38092CC11E68001E0759 /* UserDefaults.swift in Sources */,
 				EBE2C4202CCBABF40058AD2A /* ImageCarouselView.swift in Sources */,
+				EBE8A1692D08F2C80030B6F0 /* ExampleCombine.swift in Sources */,
 				EB80059E2CB8653C0026E015 /* DropDownList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
